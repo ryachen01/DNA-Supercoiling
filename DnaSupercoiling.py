@@ -274,7 +274,7 @@ def plotRungs():
             z[1][0] = z1
             totalArcLength = arcLength
 
-            baseColor = bases[int(basePairs[counter][0])]
+            baseColor = bases[int(basePairs[counter][1])]
             mlab.plot3d(x, y, z, color = baseColor)
             counter += 1
 
